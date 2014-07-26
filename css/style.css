@@ -1,3 +1,27 @@
+body{
+	font-size: 16px;
+}
+
+.bt{
+	border-top: 1px solid #000;
+}
+
+.br{
+	border-right: 1px solid #000;
+}
+
+.bd{
+	border-down: 1px solid #000;
+}
+
+.bl{
+	border-left: 1px solid #000;
+}
+
+.fullbr{
+	border: 1px solid #000;
+}
+
 #main-container{
 	width: 100%;
 	background-color: rgba(0,0,0,0.1);
@@ -6,7 +30,7 @@
 .container{
 	width: 90%;
 	margin: 0 auto;
-	background-color: rgba(0,0,0,0.2);
+	padding: 10px 0;
 }
 
 .full-container{
@@ -19,25 +43,62 @@
 }
 
 .header-sub{
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(0,0,0,0.2);
+}
+
+.logo{
+	width: 200px;
+	height: 60px;
+	display: block;
+	background-color: rgba(0,0,0,1);
+	margin-top: 10px;
+}
+
+.menu{
+	margin-top: 30px;
+}
+
+.menu a{
+	text-decoration: none;
+	margin-right: 1rem;
+}
+
+.menu-sub{
+	margin-top: 5px;
+}
+
+.menu-sub a{
+	text-decoration: none;
+	margin-right: 2rem;
 }
 
 .slider{
-	min-height: 220px;
+	min-height: 300px;
+	margin-top: 10px;
 }
 
 .community-desc{
 	min-height: 40px;
+	margin-top: 10px;
+}
+
+.community-desc .join{
+	min-height: 40p
+}
+
+.community-desc h1{
+	font-size: 4em;
+	text-transform: uppercase;
+	font-family: "Times New Roman";
+	text-align: right;
 }
 
 .blog-events .content-box{
 	min-height: 200px;
-	background-color: rgba(0,0,0,0.6);
 }
 
 .list-content .content-box{
 	min-height: 40px;
-	background-color: rgba(0,0,0,0.6);
 }
 
 .footer{
