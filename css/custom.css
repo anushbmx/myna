@@ -2,3 +2,7 @@ article,aside,details,figcaption,figure,
     footer,header,hgroup,menu,nav,section,div {
     	min-height: 20px;
     }
+.color-box{
+	background-color: rgba(0,0,0,0.8);
+	min-height: 60px;
+}

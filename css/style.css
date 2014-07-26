@@ -7,24 +7,34 @@ body{
 }
 
 .br{
-	border-right: 1px solid #000;
+	border-right: 1px solid rgba(0,0,0,0.4);
 }
 
 .bd{
-	border-down: 1px solid #000;
+	border-down: 1px solid rgba(0,0,0,0.4);
 }
 
 .bl{
-	border-left: 1px solid #000;
+	border-left: 1px solid rgba(0,0,0,0.4);
 }
 
 .fullbr{
-	border: 1px solid #000;
+	border: 1px solid rgba(0,0,0,0.4);
+}
+
+.section-headings{
+	border-top: 0.2em solid rgba(0,0,0,0.2);
+	padding-top: 5px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+a:hover{
+	border-bottom: 1px solid;
 }
 
 #main-container{
 	width: 100%;
-	background-color: rgba(0,0,0,0.1);
 }
 
 .container{
